@@ -1,0 +1,135 @@
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 18px;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ecf0f1;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #e74c3c;
+    }
+
+    #search {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      width: 300px;
+    }
+
+    .country-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .region {
+      display: flex;
+      padding-top: 20px;
+      margin: 20px;
+    }
+
+    .tarjeta {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 420px;
+      border: 1px solid #ecf0f1;
+      box-shadow: 2px 2px 8px 4px rgba(211, 211, 211, 0.82);
+      border-radius: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 5px;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .tarjeta:hover {
+      box-shadow: 4px 4px 12px 6px rgba(211, 211, 211, 0.95);
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      display: block;
+      margin-bottom: 10px;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .titulo {
+      font-size: 24px;
+      padding: 10px;
+    }
+
+    .cuerpo {
+      padding: 10px;
+    }
+
+    .pie {
+      background: #e74c3c;
+      border-radius: 0 0 15px 15px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .pie a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .pie a:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      content: "";
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #c0392b;
+    }
